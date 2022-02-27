@@ -1,0 +1,16 @@
+@charset 'utf-8';
+@import url("https://fonts/googleapis.com/css?family-Nunito:400,700");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+
+$purple: #c9168d;
+$pink: #fa7c91;
+$dark: #333;
+$begin-lighter: rgb(245, 245, 245);
+
+$family-sans-serif: "Nunito", sans-serif;
+$primary: $purple;
+$link: $dark;
+$danger: $pink;
+
+$body-background-color: $begin-lighter;
+@import "../../node_modules/bulma/bulma.sass";
